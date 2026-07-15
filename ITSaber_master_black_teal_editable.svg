@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ITSaber_Editable_Logo" xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>I.T. SABER Editable Logo</title>
+  <desc>Editable vector logo. Change colors in the :root variables or edit individual grouped paths.</desc>
+  <style>
+    :root {
+      --background: #000000;
+      --primary-text: #FFFFFF;
+      --accent: #00B9D6;
+      --top-accent: #FFFFFF;
+      --tagline: #00B9D6;
+      --divider: #FFFFFF;
+    }
+    .wordmark {
+      font-family: "Eurostile Extended", "Microgramma", "Orbitron", "Arial Black", Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: 14px;
+    }
+    .tagline {
+      font-family: "Montserrat", "Aptos", Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 8px;
+    }
+  </style>
+
+  <rect id="background" width="1600" height="900" fill="none"/>
+
+  <g id="LOGO_MARK" transform="translate(165 310)">
+    <g id="symbol_top_layer" fill="var(--top-accent)">
+      <polygon points="0,90 139,0 292,89 258,112 139,43 34,112"/>
+    </g>
+
+    <g id="symbol_main_layers" fill="var(--accent)">
+      <polygon id="symbol_middle_layer" points="0,150 34,128 258,257 292,235 292,191 139,280 0,199"/>
+      <polygon id="symbol_center_slash" points="104,132 139,111 292,199 258,221"/>
+      <polygon id="symbol_bottom_layer" points="0,250 0,292 139,373 292,284 292,242 139,330 34,268 34,229"/>
+    </g>
+  </g>
+
+  <g id="DIVIDER">
+    <rect x="505" y="325" width="5" height="300" fill="var(--divider)"/>
+  </g>
+
+  <g id="WORDMARK">
+    <text x="585" y="485" class="wordmark" font-size="100" fill="var(--primary-text)">I.T. SABER</text>
+    <rect x="585" y="525" width="860" height="5" fill="var(--divider)"/>
+    <text x="585" y="595" class="tagline" font-size="36" fill="var(--tagline)">PRECISION IT &amp; SECURITY SOLUTIONS</text>
+  </g>
+</svg>
