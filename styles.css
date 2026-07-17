@@ -371,13 +371,6 @@ body::before {
   align-items: center;
 }
 
-.copy-status {
-  min-height: 1.2em;
-  margin: 0;
-  color: var(--accent-strong);
-  font-weight: 600;
-}
-
 .contact-details {
   margin-top: 16px;
   padding: 14px 16px;
