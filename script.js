@@ -3,7 +3,7 @@ const copyButton = document.getElementById('copyBtn');
 const copyStatus = document.getElementById('copyStatus');
 
 const siteSummary =
-  'IT Saber provides security cameras, access control, networking, and IT support for modern businesses.';
+  'IT Saber specializes in CCTV and access control, with networking and IT support for modern businesses.';
 
 const observer = new IntersectionObserver(
   (entries) => {
