@@ -3,7 +3,7 @@ const copyButton = document.getElementById('copyBtn');
 const copyStatus = document.getElementById('copyStatus');
 
 const siteSummary =
-  'IT Saber is a Dentek Systems subsidiary providing security cameras, access control, networking, and IT support.';
+  'IT Saber provides security cameras, access control, networking, and IT support for modern businesses.';
 
 const observer = new IntersectionObserver(
   (entries) => {
