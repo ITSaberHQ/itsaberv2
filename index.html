@@ -42,12 +42,29 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SecuritySystemInstaller",
+        "@type": ["LocalBusiness", "SecuritySystemInstaller"],
         "name": "IT Saber",
         "url": "https://www.itsaber.com/",
         "description": "IT Saber specializes in CCTV and access control, with networking and IT support for modern businesses.",
         "image": "https://www.itsaber.com/og-image.png",
-        "email": "info@itsaber.com",
+        "telephone": "+1-469-251-8000",
+        "email": ["sales@itsaber.com", "support@itsaber.com"],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-469-251-8000",
+            "contactType": "sales",
+            "email": "sales@itsaber.com",
+            "availableLanguage": ["English"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+1-469-251-8000",
+            "contactType": "customer support",
+            "email": "support@itsaber.com",
+            "availableLanguage": ["English"]
+          }
+        ],
         "areaServed": "US",
         "serviceType": [
           "CCTV systems",
@@ -181,9 +198,6 @@
               operations, then reinforce them with reliable networking and responsive IT service.
             </p>
             <p>
-              IT Saber and Dentek Systems are sister companies, each focused on complementary strengths.
-            </p>
-            <p>
               The brand is intentionally sharp and high-contrast, matching the way we approach deployment:
               clean, direct, and built to last.
             </p>
@@ -224,7 +238,7 @@
             </p>
           </div>
           <div class="cta-actions">
-            <a class="button button-primary" href="mailto:info@itsaber.com">Email IT Saber</a>
+            <a class="button button-primary" href="mailto:sales@itsaber.com">Email IT Saber</a>
             <button class="button button-secondary" type="button" id="copyBtn">Copy site summary</button>
           </div>
           <p class="copy-status" id="copyStatus" aria-live="polite"></p>
@@ -233,7 +247,11 @@
 
       <footer class="site-footer">
         <p>IT Saber specializes in CCTV and access control, with networking and IT support for modern businesses.</p>
-        <p>IT Saber and Dentek Systems are sister companies.</p>
+        <p>
+          <a href="https://dynapost.com" target="_blank" rel="noreferrer">
+            Professional Security Camera Installation Dallas TxLic B13689
+          </a>
+        </p>
       </footer>
     </div>
   </body>
